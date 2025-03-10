@@ -18,6 +18,20 @@ body{
     font-weight: bold;
 }
 
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    gap: 50px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
 ul{
     list-style-type: none;
     padding: 0;
@@ -30,4 +44,9 @@ a{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+img {
+    height: auto;
+    width: 150px;
 }
